@@ -11,9 +11,12 @@ public class Hmap {
 		hm.put(1, "Saravanan");
 		hm.put(2, "Vinitha");
 		hm.put(3, "DhanyasriSV");
+		hm.remove(1);
+		hm.re
 		System.out.println("Iterating Hashmap");
 
-		for(Map.Entry  m:hm.entrySet()) {
+		for(Map.Entry  m:hm.entrySet()) 
+		{
 			System.out.println(m.getKey()+" "+m.getValue());
 		}
 	}
